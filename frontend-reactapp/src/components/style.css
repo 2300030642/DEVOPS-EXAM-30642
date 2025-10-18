@@ -1,0 +1,178 @@
+/* General Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Headings */
+h2 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Forms */
+form {
+  background-color: #f7f7f7;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #f39c12;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button.btn-success {
+  background-color: #27ae60;
+  color: white;
+}
+
+button.btn-success:hover {
+  background-color: #1e8449;
+}
+
+button.btn-primary {
+  background-color: #2980b9;
+  color: white;
+}
+
+button.btn-primary:hover {
+  background-color: #1c5980;
+}
+
+button.btn-secondary {
+  background-color: #7f8c8d;
+  color: white;
+}
+
+button.btn-secondary:hover {
+  background-color: #616a6b;
+}
+
+/* Table Styling for ProductList */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Card for ViewProduct */
+.card {
+  background-color: #f7f7f7;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Error / Message */
+.text-danger {
+  color: #e74c3c;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Links inside card */
+.card a {
+  text-decoration: none;
+}
+
+/* Table buttons (edit/delete/view) */
+.table button {
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.6rem;
+}
+
+/* ProductList table buttons */
+.table button,
+.table .btn {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+  margin-right: 0.3rem;
+}
+
+/* View Button */
+.table .btn-info {
+  background-color: #3498db;
+}
+
+.table .btn-info:hover {
+  background-color: #217dbb;
+}
+
+/* Edit Button */
+.table .btn-primary {
+  background-color: #2980b9;
+}
+
+.table .btn-primary:hover {
+  background-color: #1c5980;
+}
+
+/* Delete Button */
+.table .btn-danger {
+  background-color: #e74c3c;
+}
+
+.table .btn-danger:hover {
+  background-color: #c0392b;
+}
+
+/* Optional spacing for last button in row */
+.table .btn:last-child {
+  margin-right: 0;
+}
+
